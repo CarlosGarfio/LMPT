@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LMPT.Views.LoginPage">
+    <!--<FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+        <Label Text="Iniciar sesión"
+               FontAttributes="Bold"
+               FontSize="Title"
+               TextColor="Black"/>
+
+        <Frame CornerRadius="100" 
+                HeightRequest="200"
+                WidthRequest="200"
+                Padding="0"
+                IsClippedToBounds="True">
+            <Image Source="monkey.jpg" />
+        </Frame>
+
+        <Button Text="Do-Nothing Button" />
+
+        <Label Text="Another Label" />-->
+
+    <FlexLayout>
+        <Frame>
+            <FlexLayout Direction="Column"
+                        BackgroundColor="Red"
+                        AlignItems="Center"
+                        JustifyContent="SpaceEvenly">
+                <Label Text="Seated Monkey" StyleClass="header" />
+                <Label Text="This monkey is laid back and relaxed, and likes to watch the world go by." />
+                <Label Text="  &#x2022; Doesn't make a lot of noise" />
+                <Label Text="  &#x2022; Often smiles mysteriously" />
+                <Label Text="  &#x2022; Sleeps sitting up" />
+                <Image Source="monkey.jpg" />
+                <Label StyleClass="empty" />
+                <Button />
+            </FlexLayout>
+        </Frame>
+
+        <Frame>
+            <FlexLayout Direction="Column"
+                        BackgroundColor="Red"
+                        AlignItems="Center"
+                        JustifyContent="SpaceEvenly">
+                <Label Text="Banana Monkey" StyleClass="header" />
+                <Label Text="Watch this monkey eat a giant banana." />
+                <Label Text="  &#x2022; More fun than a barrel of monkeys" />
+                <Label Text="  &#x2022; Banana not included" />
+                <Image Source="monkey.jpg" />
+                <Label StyleClass="empty" />
+                <Button />
+            </FlexLayout>
+        </Frame>
+    </FlexLayout>
+</ContentPage>
